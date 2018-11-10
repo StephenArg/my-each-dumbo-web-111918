@@ -9,4 +9,4 @@ def my_each(array)
   return list
 end
 
-my_each() {|i| puts i}
+my_each(array) {|i| puts i}
