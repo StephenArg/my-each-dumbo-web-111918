@@ -9,4 +9,6 @@ def my_each(array)
   return list
 end
 
-my_each(array) {|i| puts i}
+collection = [1, 2, 3, 4]
+
+my_each(collection) {|i| puts i}
